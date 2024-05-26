@@ -1,0 +1,64 @@
+body,
+.TextSignup {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hero,
+.footer {
+    background-color: #1f2937;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+    justify-content: space-between;
+}
+
+.header,
+.content1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.secondary,
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 7px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.button1 {
+    background-color: #3882f6;
+    border: 0;
+    padding: 5px 20px;
+    color: #f9faf8;
+    font-weight: bolder;
+    border-radius: 5px;
+}
