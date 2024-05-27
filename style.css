@@ -72,6 +72,8 @@ a {
     gap: 30px;
     padding-top: 1.5%;
     padding-bottom: 7%;
+    padding-left: 125px;
+    padding-right: 125px;
 }
 
 .InformationHeader {
@@ -95,4 +97,24 @@ a {
 .item img {
     border: 3px solid #3882f6;
     border-radius: 7px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 75px 125px;
+}
+
+.QuoteText {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1f2937;
+    align-self: flex-end;
 }
